@@ -1,0 +1,615 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>wezom-practice-2022</title>
+  <script defer="defer" src="./js/main.js"></script><link href="./css/main.css" rel="stylesheet"></head>
+  <body>
+    <header class="header">
+      <div class="container">
+        <div class="header__top">
+          <a class="logo header__logo" href="#" target="_blank">
+            <svg class="logo__svg">
+              <use href="images/c745a0058e37ee682ac6.svg#sprite-logo"></use>
+            </svg>
+          </a>
+          <div class="header__links">
+            <a class="link link--line header__link" href="#">О Компании</a>
+            <a class="link link--line header__link" href="#">Доставка и оплата</a>
+            <a class="link link--line header__link" href="#">Гарантия</a>
+          </div>
+
+          <a class="link header__number" href="tel:+380680000000">+38 068 000 00 00</a>
+
+          <div class="header__languages">
+            <a class="link header__link" href="#">Ua</a>
+            <a class="link header__link" href="#">Ru</a>
+          </div>
+
+          <button class="entrance header__entrance">
+            <div class="entrance__text">Войти</div>
+            <svg class="entrance__svg">
+              <use href="images/c745a0058e37ee682ac6.svg#sprite-entrance"></use>
+            </svg>
+          </button>
+        </div>
+        <div class="header__bottom">
+          <div class="catalog header__catalog">
+            <div class="catalog__btn">
+              <div class="catalog__burger">
+                <div></div>
+              </div>
+              <div class="catalog__text">каталог</div>
+              <div class="catalog__submenu">
+                <div class="catalog__user-icons">
+                  <a class="user-icon catalog__user-icon" href="#">
+                    <svg class="user-icon__svg" height="30px" width="30px">
+                      <use href="images/c745a0058e37ee682ac6.svg#sprite-balance"></use>
+                    </svg>
+                  </a>
+                  <a class="user-icon catalog__user-icon" href="#">
+                    <svg class="user-icon__svg" height="30px" width="30px">
+                      <use href="images/c745a0058e37ee682ac6.svg#sprite-fav"></use>
+                    </svg>
+                  </a>
+                  <a class="user-icon user-icon--basket catalog__user-icon" href="#">
+                    <svg class="user-icon__svg" height="30px" width="30px">
+                      <use href="images/c745a0058e37ee682ac6.svg#sprite-basket"></use>
+                    </svg>
+                  </a>
+                </div>
+                <div class="catalog__menu">
+                  <a class="link link--line catalog__link" href="#">О Компании</a>
+                  <a class="link link--line catalog__link" href="#">Доставка и оплата</a>
+                  <a class="link link--line catalog__link" href="#">Гарантия</a>
+                </div>
+                <div class="catalog__sub-inner">
+                  <a class="catalog__submenu-item" href="#">
+                    <svg class="catalog__submenu-item-svg">
+                      <use href="images/c745a0058e37ee682ac6.svg#sprite-categ-1"></use>
+                    </svg>
+                    <div class="catalog__submenu-item-text">Категория 1</div>
+                    <svg class="catalog__submenu-item-arrow">
+                      <use href="images/c745a0058e37ee682ac6.svg#sprite-arrow-right"></use>
+                    </svg>
+                  </a>
+                  <a class="catalog__submenu-item" href="#">
+                    <svg class="catalog__submenu-item-svg">
+                      <use href="images/c745a0058e37ee682ac6.svg#sprite-categ-2"></use>
+                    </svg>
+                    <div class="catalog__submenu-item-text">Категория 2</div>
+                    <svg class="catalog__submenu-item-arrow">
+                      <use href="images/c745a0058e37ee682ac6.svg#sprite-arrow-right"></use>
+                    </svg>
+                  </a>
+                  <a class="catalog__submenu-item" href="#">
+                    <svg class="catalog__submenu-item-svg">
+                      <use href="images/c745a0058e37ee682ac6.svg#sprite-categ-3"></use>
+                    </svg>
+                    <div class="catalog__submenu-item-text">Категория 3</div>
+                    <svg class="catalog__submenu-item-arrow">
+                      <use href="images/c745a0058e37ee682ac6.svg#sprite-arrow-right"></use>
+                    </svg>
+                  </a>
+                  <a class="catalog__submenu-item" href="#">
+                    <svg class="catalog__submenu-item-svg">
+                      <use href="images/c745a0058e37ee682ac6.svg#sprite-categ-4"></use>
+                    </svg>
+                    <div class="catalog__submenu-item-text">Категория 4</div>
+                    <svg class="catalog__submenu-item-arrow">
+                      <use href="images/c745a0058e37ee682ac6.svg#sprite-arrow-right"></use>
+                    </svg>
+                  </a>
+                  <a class="catalog__submenu-item" href="#">
+                    <svg class="catalog__submenu-item-svg">
+                      <use href="images/c745a0058e37ee682ac6.svg#sprite-categ-5"></use>
+                    </svg>
+                    <div class="catalog__submenu-item-text">Категория 5</div>
+                    <svg class="catalog__submenu-item-arrow">
+                      <use href="images/c745a0058e37ee682ac6.svg#sprite-arrow-right"></use>
+                    </svg>
+                  </a>
+                  <a class="catalog__submenu-item" href="#">
+                    <svg class="catalog__submenu-item-svg">
+                      <use href="images/c745a0058e37ee682ac6.svg#sprite-categ-6"></use>
+                    </svg>
+                    <div class="catalog__submenu-item-text">Категория 6</div>
+                    <svg class="catalog__submenu-item-arrow">
+                      <use href="images/c745a0058e37ee682ac6.svg#sprite-arrow-right"></use>
+                    </svg>
+                  </a>
+                  <a class="catalog__submenu-item" href="#">
+                    <svg class="catalog__submenu-item-svg">
+                      <use href="images/c745a0058e37ee682ac6.svg#sprite-categ-7"></use>
+                    </svg>
+                    <div class="catalog__submenu-item-text">Категория 7</div>
+                    <svg class="catalog__submenu-item-arrow">
+                      <use href="images/c745a0058e37ee682ac6.svg#sprite-arrow-right"></use>
+                    </svg>
+                  </a>
+                  <a class="catalog__submenu-item" href="#">
+                    <svg class="catalog__submenu-item-svg">
+                      <use href="images/c745a0058e37ee682ac6.svg#sprite-categ-8"></use>
+                    </svg>
+                    <div class="catalog__submenu-item-text">Категория 8</div>
+                    <svg class="catalog__submenu-item-arrow">
+                      <use href="images/c745a0058e37ee682ac6.svg#sprite-arrow-right"></use>
+                    </svg>
+                  </a>
+                  <a class="catalog__submenu-item" href="#">
+                    <svg class="catalog__submenu-item-svg">
+                      <use href="images/c745a0058e37ee682ac6.svg#sprite-categ-9"></use>
+                    </svg>
+                    <div class="catalog__submenu-item-text">Категория 9</div>
+                    <svg class="catalog__submenu-item-arrow">
+                      <use href="images/c745a0058e37ee682ac6.svg#sprite-arrow-right"></use>
+                    </svg>
+                  </a>
+                  <a class="catalog__submenu-item" href="#">
+                    <svg class="catalog__submenu-item-svg">
+                      <use href="images/c745a0058e37ee682ac6.svg#sprite-categ-10"></use>
+                    </svg>
+                    <div class="catalog__submenu-item-text">Категория 10</div>
+                    <svg class="catalog__submenu-item-arrow">
+                      <use href="images/c745a0058e37ee682ac6.svg#sprite-arrow-right"></use>
+                    </svg>
+                  </a>
+                  <a class="catalog__submenu-item catalog__categories--sub" href="#">
+                    <div class="catalog__submenu-item-text">Все категории</div>
+                  </a>
+                </div>
+              </div>
+            </div>
+            <a class="catalog__categories" href="#">Все категории</a>
+          </div>
+          <div class="search header__search">
+            <input type="text" class="search__input" placeholder="Поиск, например “тест”">
+            <svg class="search__svg">
+              <use href="images/c745a0058e37ee682ac6.svg#sprite-search"></use>
+            </svg>
+          </div>
+          <div class="header__user-icons">
+            <a class="user-icon header__user-icon" href="#">
+              <svg class="user-icon__svg" height="30px" width="30px">
+                <use href="images/c745a0058e37ee682ac6.svg#sprite-balance"></use>
+              </svg>
+            </a>
+            <a class="user-icon header__user-icon" href="#">
+              <svg class="user-icon__svg" height="30px" width="30px">
+                <use href="images/c745a0058e37ee682ac6.svg#sprite-fav"></use>
+              </svg>
+            </a>
+            <div class="user-icon user-icon--basket header__user-icon">
+              <svg class="user-icon__svg" height="30px" width="30px">
+                <use href="images/c745a0058e37ee682ac6.svg#sprite-basket"></use>
+              </svg>
+              <div class="basket-menu">
+                <img class="basket-menu__triangle" src="images/1085ac5ac1f6e3f37696.png" alt="#">
+                <div class="basket-menu__text">В корзине <span>3 товара</span></div>
+                <div class="basket-menu__text">На сумму <span>30 000 ₴</span></div>
+                <button class="basket-btn basket-btn--secondary basket-menu__btn">
+                  <div class="basket-btn__text">Оформить заказ</div>
+                  <svg class="basket-btn__svg">
+                    <use href="images/c745a0058e37ee682ac6.svg#sprite-basket"></use>
+                  </svg>
+                </button>
+                <a class="btn-move btn-move--large" href="#">
+                  <div class="btn-move__text">Редактировать заказ</div>
+                </a>
+              </div>
+            </div>
+          </div>
+
+          <div class="burger burger--js header__burger">
+            <span></span>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <div class="main">
+      <div class="container">
+        <div class="product">
+          <div class="product__text">Test — Каталог — Группа — Тестовый товар для верстки</div>
+          <div class="product__inner">
+            <div class="product-card product__product-card">
+              <div class="product-card__images">
+                <svg class="product-card__images-svg">
+                  <use href="images/c745a0058e37ee682ac6.svg#sprite-arrow-up"></use>
+                </svg>
+                <div class="product-card__images-img product-card__images-img--active js-product-card" id="#product-card-1">
+                  <picture>
+                    <source type="image/webp" srcset="images/01a5057e5435e8397613.webp">
+                    <img src="images/831bfe5795e8b8a8940d.png" alt="#">
+                  </picture>
+                </div>
+                <div class="product-card__images-img js-product-card" id="#product-card-2">
+                  <picture>
+                    <source type="image/webp" srcset="images/35cdb8af78e21005aaa1.webp">
+                    <img src="images/5257b6ba75230e14e1a6.png" alt="#">
+                  </picture>
+                </div>
+                <div class="product-card__images-img js-product-card" id="#product-card-3">
+                  <picture>
+                    <source type="image/webp" srcset="images/1ddb101f0d95877c9488.webp">
+                    <img src="images/fc291ff2065ed3aac4a8.png" alt="#">
+                  </picture>
+                </div>
+                <div class="product-card__images-img js-product-card" id="#product-card-4">
+                  <picture>
+                    <source type="image/webp" srcset="images/06fc7e4d487db6210b59.webp">
+                    <img src="images/4d3ef5083c988210a5f1.png" alt="#">
+                  </picture>
+                </div>
+                <svg class="product-card__images-svg">
+                  <use href="images/c745a0058e37ee682ac6.svg#sprite-arrow-down"></use>
+                </svg>
+              </div>
+              <div class="product-card__img product-card__img--active js-main-img" id="product-card-1">
+                <picture>
+                  <source type="image/webp" srcset="images/ef4e8bd2490e267dec18.webp">
+                  <img src="images/98730b19a047c45271e6.png" alt="#">
+                </picture>
+              </div>
+              <div class="product-card__img js-main-img" id="product-card-2">
+                <picture>
+                  <source type="image/webp" srcset="images/681291762b309a7d4d98.webp">
+                  <img src="images/d71875ce6fc3fa55f79a.png" alt="#">
+                </picture>
+              </div>
+              <div class="product-card__img js-main-img" id="product-card-3">
+                <picture>
+                  <source type="image/webp" srcset="images/d04c5f55a0229815b836.webp">
+                  <img src="images/26d5e854a2da3c7b0429.png" alt="#">
+                </picture>
+              </div>
+              <div class="product-card__img js-main-img" id="product-card-4">
+                <picture>
+                  <source type="image/webp" srcset="images/70e363857c3f86638e89.webp">
+                  <img src="images/e823265e80f4775c1f27.png" alt="#">
+                </picture>
+              </div>
+            </div>
+            <div class="product__description">
+              <div class="product__description-inner">
+                <div class="existence product__existence">
+                  <svg class="existence__svg">
+                    <use href="images/c745a0058e37ee682ac6.svg#sprite-check"></use>
+                  </svg>
+                  <div class="existence__text">В наличии</div>
+                </div>
+                <div class="rating">
+                  <div class="rating__stars" data-total="5">
+                    <svg class="rating__svg">
+                      <use href="images/c745a0058e37ee682ac6.svg#sprite-star"></use>
+                    </svg>
+                    <svg class="rating__svg">
+                      <use href="images/c745a0058e37ee682ac6.svg#sprite-star"></use>
+                    </svg>
+                    <svg class="rating__svg">
+                      <use href="images/c745a0058e37ee682ac6.svg#sprite-star"></use>
+                    </svg>
+                    <svg class="rating__svg">
+                      <use href="images/c745a0058e37ee682ac6.svg#sprite-star"></use>
+                    </svg>
+                    <svg class="rating__svg">
+                      <use href="images/c745a0058e37ee682ac6.svg#sprite-star"></use>
+                    </svg>
+                  </div>
+                  <a class="rating__link" href="#">12</a>
+                </div>
+                <div class="product__description-text">Артикул: <span>100500</span></div>
+              </div>
+              <div class="buying">
+                <div class="buying__header">
+                  <div class="action-banner buying__action-banner">Акция</div>
+                  <div class="action-info buying__action-info">До 30 июля скидка — 20% на все тестовые товары</div>
+                </div>
+                <div class="buying__prices">
+                  <div class="buying__price">3 799 ₴</div>
+                  <div class="buying__last-price">4 200 ₴</div>
+                </div>
+                <button class="basket-btn buying__basket-btn">
+                  <div class="basket-btn__text">В корзину</div>
+                  <svg class="basket-btn__svg">
+                    <use href="images/c745a0058e37ee682ac6.svg#sprite-basket"></use>
+                  </svg>
+                </button>
+                <div class="buying__user-icons">
+                  <a class="user-icon buying__user-icon" href="#">
+                    <svg class="user-icon__svg" height="30px" width="30px">
+                      <use href="images/c745a0058e37ee682ac6.svg#sprite-balance"></use>
+                    </svg>
+                  </a>
+                  <a class="user-icon buying__user-icon" href="#">
+                    <svg class="user-icon__svg" height="30px" width="30px">
+                      <use href="images/c745a0058e37ee682ac6.svg#sprite-fav"></use>
+                    </svg>
+                  </a>
+                  <a class="user-icon user-icon--call buying__user-icon" href="#">
+                    <svg class="user-icon__svg" height="30px" width="30px">
+                      <use href="images/c745a0058e37ee682ac6.svg#sprite-call"></use>
+                    </svg>
+                    <div class="user-icon__text">Купить в 1 клик</div>
+                  </a>
+                </div>
+              </div>
+              <div class="product__description-accardeons">
+                <div class="accardeon js-accardeon">
+                  <div class="accardeon__inner">
+                    <div class="accardeon__text">
+                      <svg class="accardeon__text-svg">
+                        <use href="images/c745a0058e37ee682ac6.svg#sprite-condition-1"></use>
+                      </svg>
+                      <span>Гарантия</span>
+                    </div>
+                    <svg class="accardeon__arrow">
+                      <use href="images/c745a0058e37ee682ac6.svg#sprite-accardeon-arrow"></use>
+                    </svg>
+                  </div>
+                  <div class="accardeon__content">
+                    Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                    Natus sapiente sunt dolore ratione accusamus explicabo nisi
+                    sequi ipsam enim facere consequatur soluta ipsum dolorem
+                    est, libero, eaque perspiciatis distinctio vel. Quo
+                    voluptatibus corporis laborum repudiandae necessitatibus
+                    praesentium ut, quos illo optio consequatur facilis fuga?
+                    Quas error reiciendis maxime, rerum, eligendi deleniti magni
+                    placeat maiores laborum corporis ipsa quasi commodi fugiat.
+                    At cum dicta tempore beatae voluptas quis possimus laborum
+                    itaque nihil vero fuga inventore amet dolores quam deserunt
+                    delectus suscipit earum voluptates, facilis placeat eum,
+                    sunt voluptatum aut. Incidunt, labore! Exercitationem
+                    pariatur delectus, deleniti vero consectetur numquam nam
+                    voluptatibus. Et, dolor animi? Maxime nostrum nisi officia
+                    sunt provident blanditiis suscipit exercitationem quibusdam.
+                    Odio sint hic veritatis molestiae fugit cum ea. Obcaecati
+                    corporis libero placeat doloribus labore itaque consequatur
+                    quidem molestiae neque est quibusdam deleniti totam
+                    perferendis, velit officia omnis soluta dignissimos suscipit
+                    ad beatae laborum odit expedita! Tempore, nam expedita!
+                  </div>
+                </div>
+                <div class="accardeon js-accardeon">
+                  <div class="accardeon__inner">
+                    <div class="accardeon__text">
+                      <svg class="accardeon__text-svg">
+                        <use href="images/c745a0058e37ee682ac6.svg#sprite-condition-2"></use>
+                      </svg>
+                      <span>Условия доставки</span>
+                    </div>
+                    <svg class="accardeon__arrow">
+                      <use href="images/c745a0058e37ee682ac6.svg#sprite-accardeon-arrow"></use>
+                    </svg>
+                  </div>
+                  <div class="accardeon__content">
+                    Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                    Natus sapiente sunt dolore ratione accusamus explicabo nisi
+                    sequi ipsam enim facere consequatur soluta ipsum dolorem
+                    est, libero, eaque perspiciatis distinctio vel. Quo
+                    voluptatibus corporis laborum repudiandae necessitatibus
+                    praesentium ut, quos illo optio consequatur facilis fuga?
+                    Quas error reiciendis maxime, rerum, eligendi deleniti magni
+                    placeat maiores laborum corporis ipsa quasi commodi fugiat.
+                    At cum dicta tempore beatae voluptas quis possimus laborum
+                    itaque nihil vero fuga inventore amet dolores
+                  </div>
+                </div>
+                <div class="accardeon js-accardeon">
+                  <div class="accardeon__inner">
+                    <div class="accardeon__text">
+                      <svg class="accardeon__text-svg">
+                        <use href="images/c745a0058e37ee682ac6.svg#sprite-condition-3"></use>
+                      </svg>
+                      <span>Условия оплаты</span>
+                    </div>
+                    <svg class="accardeon__arrow">
+                      <use href="images/c745a0058e37ee682ac6.svg#sprite-accardeon-arrow"></use>
+                    </svg>
+                  </div>
+                  <div class="accardeon__content">
+                    Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                    Natus sapiente sunt dolore ratione accusamus explicabo nisi
+                    sequi ipsam enim facere consequatur soluta ipsum dolorem
+                    est, libero, eaque perspiciatis distinctio vel.
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="main__inner">
+          <div class="characteristic">
+            <div class="title characteristic__title">Характеристики <span>Тестового товара для верстки</span></div>
+            <div class="characteristic__items">
+              <div class="characteristic__item">
+                <div class="characteristic__item-inner">
+                  <div class="characteristic__text">Тип</div>
+                  <div class="characteristic__line"></div>
+                </div>
+                <div class="characteristic__subtext">Группа 1</div>
+              </div>
+              <div class="characteristic__item">
+                <div class="characteristic__item-inner">
+                  <div class="characteristic__text">Номер</div>
+                  <div class="characteristic__line"></div>
+                </div>
+                <div class="characteristic__subtext">B410-210</div>
+              </div>
+              <div class="characteristic__item">
+                <div class="characteristic__item-inner">
+                  <div class="characteristic__text">Бренд</div>
+                  <div class="characteristic__line"></div>
+                </div>
+                <div class="characteristic__subtext">Wezom</div>
+              </div>
+              <a class="btn-move characteristic__btn-move" href="#">
+                <div class="btn-move__text">Все характеристики</div>
+                <svg class="btn-move__svg">
+                  <use href="images/c745a0058e37ee682ac6.svg#sprite-arrow-right"></use>
+                </svg>
+              </a>
+            </div>
+          </div>
+
+          <div class="reviews">
+            <div class="reviews__header">
+              <div class="title reviews__title">Отзывы покупателей <span>12</span></div>
+              <a class="btn-move" href="#">
+                <div class="btn-move__text">Все отзывы</div>
+                <svg class="btn-move__svg">
+                  <use href="images/c745a0058e37ee682ac6.svg#sprite-arrow-right"></use>
+                </svg>
+              </a>
+            </div>
+            <div class="reviews-inner js-reviews">
+              <div class="review">
+                <div class="review__inner">
+                  <div class="review__name">Зухра Ивановна</div>
+                  <span class="review__date">/ 21 мая 2021</span>
+                  <div class="rating review__rating">
+                    <div class="rating__stars" data-total="4">
+                      <svg class="rating__svg">
+                        <use href="images/c745a0058e37ee682ac6.svg#sprite-star"></use>
+                      </svg>
+                      <svg class="rating__svg">
+                        <use href="images/c745a0058e37ee682ac6.svg#sprite-star"></use>
+                      </svg>
+                      <svg class="rating__svg">
+                        <use href="images/c745a0058e37ee682ac6.svg#sprite-star"></use>
+                      </svg>
+                      <svg class="rating__svg">
+                        <use href="images/c745a0058e37ee682ac6.svg#sprite-star"></use>
+                      </svg>
+                      <svg class="rating__svg">
+                        <use href="images/c745a0058e37ee682ac6.svg#sprite-star"></use>
+                      </svg>
+                    </div>
+                  </div>
+                </div>
+                <div class="review__text">
+                  Покупка этой товара была спонтанной и незапланированной. В
+                  течении часа прочитала отзывы и остановилась на этой модельке.
+                  Изначально знала, что пластины не сьемные, но плюсов было
+                  больше. Спасибо за молниеносную отправку! 2 дня с момента
+                  заказа и единственный нюанс-все таки сьемные пластины удобнее,
+                  наверное. Но по советам более опытных я ставила пергамент, но
+                  мыть все равно сложновато.
+                </div>
+              </div>
+              <div class="review">
+                <div class="review__inner">
+                  <div class="review__name">Рогозин Тимур</div>
+                  <span class="review__date">/ 17 мая 2021</span>
+                  <div class="rating review__rating">
+                    <div class="rating__stars" data-total="2">
+                      <svg class="rating__svg">
+                        <use href="images/c745a0058e37ee682ac6.svg#sprite-star"></use>
+                      </svg>
+                      <svg class="rating__svg">
+                        <use href="images/c745a0058e37ee682ac6.svg#sprite-star"></use>
+                      </svg>
+                      <svg class="rating__svg">
+                        <use href="images/c745a0058e37ee682ac6.svg#sprite-star"></use>
+                      </svg>
+                      <svg class="rating__svg">
+                        <use href="images/c745a0058e37ee682ac6.svg#sprite-star"></use>
+                      </svg>
+                      <svg class="rating__svg">
+                        <use href="images/c745a0058e37ee682ac6.svg#sprite-star"></use>
+                      </svg>
+                    </div>
+                  </div>
+                </div>
+                <div class="review__text">
+                  Покупка этого товара была спонтанной и незапланированной. В
+                  течении часа прочитал отзывы и остановился на этой модельке.
+                  Спасибо за молниеносную отправку!
+                </div>
+              </div>
+            </div>
+
+            <button class="btn-more reviews__btn-more js-reviews__btn-more">
+              <div class="btn-more__text">Показать ещe</div>
+            </button>
+          </div>
+        </div>
+
+        <div class="help">
+          <div class="title help__title">Нужна помощь в подборе товара? Мы перезваниваем !</div>
+          <div class="help__mask">
+            <input id="js-input" class="help__input js-input" type="text" placeholder="+38 (0xx) xx - xx - xxx">
+            <button type="submit" class="btn-send">Отправить</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <footer class="footer">
+      <div class="container">
+        <div class="footer__inner">
+          <div class="footer__text">2021 © Wezom Test</div>
+          <div class="footer__text">Тестовое \\ Wezom</div>
+        </div>
+      </div>
+    </footer>
+
+    <div class="burger-menu">
+      <div class="burger-menu__links">
+        <a class="link link--line burger-menu__link" href="#">О Компании</a>
+        <a class="link link--line burger-menu__link" href="#">Доставка и оплата</a>
+        <a class="link link--line burger-menu__link" href="#">Гарантия</a>
+      </div>
+      <div class="burger-menu__user-icons">
+        <a class="user-icon burger-menu__user-icon" href="#">
+          <svg class="user-icon__svg" height="30px" width="30px">
+            <use href="images/c745a0058e37ee682ac6.svg#sprite-balance"></use>
+          </svg>
+        </a>
+        <a class="user-icon burger-menu__user-icon" href="#">
+          <svg class="user-icon__svg" height="30px" width="30px">
+            <use href="images/c745a0058e37ee682ac6.svg#sprite-fav"></use>
+          </svg>
+        </a>
+        <a class="user-icon user-icon--basket burger-menu__user-icon" href="#">
+          <svg class="user-icon__svg" height="30px" width="30px">
+            <use href="images/c745a0058e37ee682ac6.svg#sprite-basket"></use>
+          </svg>
+        </a>
+      </div>
+    </div>
+    <div class="burger-mask"></div>
+
+    <template id="js-review">
+      <div class="review">
+        <div class="review__inner">
+          <div class="review__name js-review__name"></div>
+          <span class="review__date js-review__date"></span>
+          <div class="rating review__rating">
+            <div class="rating__stars js-review__stars" data-total="">
+              <svg class="rating__svg">
+                <use href="images/c745a0058e37ee682ac6.svg#sprite-star"></use>
+              </svg>
+              <svg class="rating__svg">
+                <use href="images/c745a0058e37ee682ac6.svg#sprite-star"></use>
+              </svg>
+              <svg class="rating__svg">
+                <use href="images/c745a0058e37ee682ac6.svg#sprite-star"></use>
+              </svg>
+              <svg class="rating__svg">
+                <use href="images/c745a0058e37ee682ac6.svg#sprite-star"></use>
+              </svg>
+              <svg class="rating__svg">
+                <use href="images/c745a0058e37ee682ac6.svg#sprite-star"></use>
+              </svg>
+            </div>
+          </div>
+        </div>
+        <div class="review__text js-review__text"> </div>
+      </div>
+    </template>
+  </body>
+</html>

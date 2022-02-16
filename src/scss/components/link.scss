@@ -1,0 +1,19 @@
+.link {
+  color: $blue;
+  font-weight: 700;
+  opacity: 0.7;
+  transition: all 0.2s;
+
+  &:hover {
+    opacity: 1;
+  }
+
+  &--line {
+    padding-bottom: 4px;
+
+    &:hover {
+      border-bottom: 1px solid $blue;
+      opacity: 1;
+    }
+  }
+}

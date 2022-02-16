@@ -1,0 +1,25 @@
+.btn-send {
+  cursor: pointer;
+  font-family: "Roboto";
+  border: none;
+  height: 56px;
+  padding: 0 44px 0 47px;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 120%;
+  color: #ffffff;
+  background-color: #ffa800;
+  border-radius: 2px;
+  transition: all 0.4s;
+
+  &:hover {
+    background-color: $green;
+  }
+}
+
+@media (max-width: 540px) {
+  .btn-send {
+    padding: 0 15px;
+    font-size: 16px;
+  }
+}

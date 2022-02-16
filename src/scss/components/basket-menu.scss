@@ -1,0 +1,40 @@
+.basket-menu {
+  cursor: default;
+  padding: 30px 0 5px 30px;
+  position: absolute;
+  top: 80px;
+  right: -10px;
+  z-index: -5;
+  opacity: 0;
+
+  width: 338px;
+  height: 280px;
+
+  box-shadow: 0px 10px 80px rgba(0, 52, 41, 0.3);
+  border-radius: 10px;
+
+  background-color: #fff;
+  transition: all 0.3s;
+
+  &__triangle {
+    position: absolute;
+    top: -20px;
+    right: 20px;
+  }
+
+  &__text {
+    font-size: 18px;
+    line-height: 21px;
+    color: #5c6d7d;
+
+    span {
+      font-weight: 500;
+      color: #33485d;
+    }
+  }
+
+  &__btn {
+    margin-top: 38px;
+    margin-bottom: 32px;
+  }
+}

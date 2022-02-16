@@ -1,0 +1,40 @@
+.entrance {
+  padding: 4px 6px;
+  border-radius: 10px;
+  margin-left: 64px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+
+  border: none;
+  background-color: transparent;
+
+  transition: all 0.4s;
+
+  &__text {
+    font-size: 14px;
+    line-height: 24px;
+    color: $blue;
+    font-weight: 700;
+    transition: all 0.2s;
+  }
+
+  &__svg {
+    width: 21px;
+    height: 21px;
+    fill: $yellow;
+    margin-left: 12px;
+    transition: all 0.2s;
+  }
+
+  &:hover {
+    background-color: $yellow;
+    .entrance__svg {
+      fill: white;
+    }
+
+    .entrance__text {
+      color: white;
+    }
+  }
+}

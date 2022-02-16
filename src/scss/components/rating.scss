@@ -1,0 +1,41 @@
+.rating {
+  display: flex;
+  align-items: center;
+
+  &__stars {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: start;
+  }
+
+  &__svg {
+    width: 15px;
+    height: 14px;
+    fill: $star;
+    opacity: 0.5;
+  }
+
+  &__svg + &__svg {
+    margin-right: 5px;
+  }
+
+  &__stars[data-total="1"] &__svg:nth-child(n + 5),
+  &__stars[data-total="2"] &__svg:nth-child(n + 4),
+  &__stars[data-total="3"] &__svg:nth-child(n + 3),
+  &__stars[data-total="4"] &__svg:nth-child(n + 2),
+  &__stars[data-total="5"] &__svg:nth-child(n + 1) {
+    opacity: 1;
+  }
+
+  &__link {
+    line-height: 120%;
+    margin-top: 4px;
+    margin-left: 8px;
+    border-bottom: 1px solid rgba($color: #5c6d7d, $alpha: 0.5);
+    transition: all 0.2s;
+
+    &:hover {
+      border-bottom: 1px solid rgba($color: #5c6d7d, $alpha: 0);
+    }
+  }
+}

@@ -1,0 +1,22 @@
+.action-info {
+  padding: 5px 20px;
+  display: flex;
+  align-items: center;
+  width: 100%;
+  max-width: 478px;
+  min-height: 60px;
+  background-color: #fdeeee;
+  font-size: 16px;
+  line-height: 120%;
+  color: #eb5757;
+}
+
+@media (max-width: 680px) {
+  .action-info {
+    padding: 5px 5px 5px 100px;
+    width: 100%;
+    max-width: 100%;
+    min-height: 30px;
+    font-size: 14px;
+  }
+}

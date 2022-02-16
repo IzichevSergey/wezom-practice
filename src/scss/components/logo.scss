@@ -1,0 +1,12 @@
+.logo {
+  &__svg {
+    width: 114px;
+    height: 41px;
+    fill: $blue;
+    transition: all 0.4s;
+
+    &:hover {
+      fill: $green;
+    }
+  }
+}

@@ -1,0 +1,27 @@
+.footer {
+  flex-shrink: 0;
+  padding: 20px 0;
+  height: 60px;
+  background-color: #0d4128;
+
+  &__inner {
+    padding: 2px 40px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  &__text {
+    font-size: 14px;
+    line-height: 18px;
+    color: rgba($color: #ffffff, $alpha: 0.5);
+  }
+}
+
+@media (max-width: 640px) {
+  .footer {
+    &__inner {
+      padding: 0 5px;
+    }
+  }
+}

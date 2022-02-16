@@ -1,0 +1,44 @@
+.btn-move {
+  cursor: pointer;
+  display: flex;
+  align-items: flex-start;
+  white-space: nowrap;
+
+  &__text {
+    padding-bottom: 2px;
+    color: $blue;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 120%;
+    border-bottom: 1px solid rgba($color: #5c6d7d, $alpha: 0.5);
+    transition: all 0.4s;
+  }
+
+  &__svg {
+    margin-top: 6px;
+    width: 15px;
+    height: 9px;
+    margin-left: 4px;
+    fill: $blue;
+    transition: all 0.4s;
+  }
+
+  &--large {
+    .btn-move__text {
+      font-size: 18px;
+    }
+  }
+
+  &:hover {
+    .btn-move {
+      &__text {
+        color: #5c6d7d;
+        border-bottom: 1px solid transparent;
+      }
+
+      &__svg {
+        fill: #5c6d7d;
+      }
+    }
+  }
+}

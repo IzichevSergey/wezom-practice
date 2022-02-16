@@ -1,0 +1,41 @@
+.reviews {
+  margin-bottom: 38px;
+  padding-top: 4px;
+  width: 100%;
+  max-width: 594px;
+
+  &__header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 38px;
+  }
+
+  &__title {
+    margin-right: 15px;
+  }
+
+  &__btn-more {
+    margin-left: 195px;
+    margin-top: 60px;
+  }
+}
+
+@media (max-width: 840px) {
+  .reviews {
+    max-width: 100%;
+    margin-top: 35px;
+
+    &__btn-more {
+      margin: 60px auto 0;
+    }
+  }
+}
+
+@media (max-width: 580px) {
+  .reviews {
+    &__title {
+      font-size: 24px;
+    }
+  }
+}

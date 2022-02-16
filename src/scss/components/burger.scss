@@ -1,0 +1,57 @@
+.burger {
+  position: relative;
+  display: none;
+  width: 50px;
+  height: 45px;
+  border-radius: 3px;
+  background: $yellow;
+  border: none;
+  cursor: pointer;
+  transition: all 0.5s;
+
+  &:hover {
+    opacity: 0.8;
+  }
+
+  span,
+  span::after,
+  span::before {
+    position: absolute;
+    height: 3px;
+    width: 30px;
+    background-color: white;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+  }
+
+  span {
+    top: 22px;
+  }
+
+  span::before {
+    content: "";
+    top: -9px;
+  }
+
+  span::after {
+    content: "";
+    top: 9px;
+  }
+
+  &--active span {
+    height: 0;
+  }
+
+  &--active span::after {
+    transform: rotate(-135deg);
+    top: 0;
+    transition: 0.4s;
+  }
+
+  &--active span::before {
+    transform: rotate(135deg);
+    transition: 0.4s;
+    top: 0px;
+  }
+}
